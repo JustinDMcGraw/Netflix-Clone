@@ -31,6 +31,7 @@ function Banner() {
     >
       <div className="banner_contents">
         <h1>{movie?.title || movie?.name || movie?.original_name}</h1>
+        <div className="banner_buttons"></div>
       </div>
     </header>
   );
